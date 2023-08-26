@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    
+}
+
+.div{
+
+   
+    display: flex;
+    
+    list-style-type: none;
+
+
+}
+.li{
+    margin: 10px;
+    cursor: pointer;
+    display: block;
+    transition: 0.5;
+}
+
+.div:hover .li{
+    filter: blur(5px);
+}
+.div:hover .li:hover{
+    filter: blur(0px);
+}
